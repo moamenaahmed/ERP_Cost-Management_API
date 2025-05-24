@@ -1,7 +1,7 @@
 # ERP Cost Management API
 
 ## Overview
-This project is an ASP.NET Core Web API implementing a Cost Management module for an Enterprise Resource Planning (ERP) course assignment. It focuses on managing invoices and payments using in-memory data storage, designed for simplicity and beginner-friendly learning.
+This project is an ASP.NET Core Web API implementing a Cost Management module. It focuses on managing invoices and payments using in-memory data storage, designed for simplicity and beginner-friendly learning.
 
 ## Features
 - **Payment Logging**: Log payments for invoices with details like amount and payment method.
@@ -32,13 +32,13 @@ This project is an ASP.NET Core Web API implementing a Cost Management module fo
    ```bash
    dotnet run
    ```
-5. **Access the API**: The API will be hosted at `https://localhost:<port>` (check the console for the exact port).
+5. **Access the API**: The API will be hosted at `https://localhost:5000` (check the console for the exact port).
 
 ## Using Swagger UI
 Swagger UI provides an interactive interface to explore and test the API endpoints.
 
 1. **Access Swagger UI**:
-   - After running the application, open a browser and navigate to `https://localhost:<port>/swagger` (replace `<port>` with the port shown in the console, e.g., 5001).
+   - After running the application, open a browser and navigate to `https://localhost:5000/swagger`.
    - You’ll see a list of all API endpoints with their descriptions.
 
 2. **Test Endpoints**:
